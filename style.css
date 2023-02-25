@@ -1,0 +1,120 @@
+.custom-body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    color: rgb(101, 255, 0); 
+}
+.content {
+    color: rgb(255, 140, 90);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+}
+.banners {
+    display: flex;
+    column-gap: 0px;
+}
+.banner {
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 188, 88);
+    text-decoration: none;
+    color: #000;
+}
+.banner1 {
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 255, 168);
+    text-decoration: none;
+    color: #000;
+}
+.banner2 {
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 149, 255);
+    text-decoration: none;
+    color: #000;
+}
+.banner3 {
+    width: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 0, 255);
+    text-decoration: none;
+    color: #000;
+}
+.books {
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    max-width: 80vw;
+    flex-wrap: wrap;
+}
+.erbooks {
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    max-width: 80vw;
+    flex-wrap: wrap;
+}
+.goback {
+    width: 100px;
+    height: 70px;
+    border-radius: 30px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+}
+.headerwidth {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+.book {
+    width: 100px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+}
+.book1 {
+    background-color: rgb(255, 0, 0);
+}
+.book2 {
+    background-color: rgb(255, 100, 0);
+}
+.book3 {
+    background-color: rgb(252, 247, 0);
+}
+.book4 {
+    background-color: rgb(42, 128, 58);
+}
+.book5 {
+    background-color: rgb(0, 60, 255);
+}
+.book6 {
+    background-color: rgb(76, 0, 255);
+}
